@@ -18,6 +18,7 @@ for users in usersToLookFor:
         if(x['name'])== users:
             userIdList.append(x['id'])
 
+f.close()
 
 
 #open events file and get the even date related to the users that our client looking for
@@ -33,6 +34,8 @@ for users in userIdList:
                 'end_time': event['end_time']
             }
             eventList.append(tempEvent)
+
+f.close()
 
 
 #sort the eventList
