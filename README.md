@@ -86,7 +86,9 @@ A dataset of all events on the calendars of all our users.
 My solution:
 
 To run the program execute following command:
+```
 python main.py Maggie, Joe, Jordan
+```
 
 (user name can be different depending on the requirements)
 
